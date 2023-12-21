@@ -1,5 +1,3 @@
-!pip install sklearn
-!pip install pandas
 
 #the importion part
 import pandas as pd
@@ -23,4 +21,9 @@ print(M)
 X = M["Age","Sex","Continent","Language Preferences"]
 
 y = M["Genre"]
+
+#Modelling haha 😂
+
+model = DecisionTreeClassifier()
+model.fit(X,y)
 
