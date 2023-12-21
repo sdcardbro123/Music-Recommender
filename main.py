@@ -4,7 +4,7 @@ import numpy as npy
 from sklearn.tree import DecisionTreeClassifier
 
 #now the csv file is imported
-M = pd.read_txr(r"music.txt")
+M = pd.read_table(r"music.txt")
 
 # Mapping 'Male' to 1 and 'Female' to 0
 M['Sex'] = M['Sex'].map({'Male': 1, 'Female': 0})
