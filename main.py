@@ -1,5 +1,4 @@
-
-#the importion part
+#The importion part
 import pandas as pd
 import numpy as npy
 from sklearn.tree import DecisionTreeClassifier
@@ -14,6 +13,10 @@ M['Sex'] = M['Sex'].map({'Male': 1, 'Female': 0})
 M['Continent'] = pd.Categorical(M['Continent']).codes
 M['Language Preferences'] = pd.Categorical(M['Language Preferences']).codes
 
+
+
+
+
 # Display the modified DataFrame or delete if not reqd
 print(M)
 
@@ -22,8 +25,12 @@ X = M["Age","Sex","Continent","Language Preferences"]
 
 y = M["Genre"]
 
+#Traintest split
+
+XT, Xt, yT, yt = train_test_split(X,y, test_size=0.2)
+
 #Modelling haha 😂
 
 model = DecisionTreeClassifier()
-model.fit(X,y)
+model.fit(XT,yT)
 
