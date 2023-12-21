@@ -1,0 +1,32 @@
+UserID	Sex	Age	Continent	Language Preferences	Music Types
+8	Female	19	Asia	Japanese	K-Pop
+3	Male	18	Asia	Mandarin	Hip-Hop
+13	Male	21	Asia	Korean	EDM
+1	Male	20	North America	English	Rock
+10	Female	23	Africa	Swahili	Afrobeat
+14	Female	26	Australia	English	Indie
+2	Female	25	Europe	Spanish	Pop
+12	Female	32	Europe	Italian	Opera
+11	Male	24	South America	Portuguese	Samba
+5	Male	22	South America	Portuguese	Electronic
+16	Female	33	Africa	Arabic	World
+15	Male	29	North America	French	Blues
+6	Female	28	Europe	German	Classical
+7	Male	35	Australia	English	Country
+20	Female	24	North America	English	R&B
+18	Female	21	Asia	Hindi	Bollywood
+17	Male	26	Europe	Russian	Metal
+19	Male	31	South America	Spanish	Latin
+9	Male	27	North America	Spanish	Reggae
+4	Female	30	Africa	French	Jazz
+50	Female	18	Asia	English	Pop
+21	Male	22	Europe	French	Pop
+22	Female	25	South America	Portuguese	Samba
+23	Male	29	North America	Spanish	Reggae
+24	Female	20	Europe	English	Rock
+25	Male	26	Africa	Swahili	Afrobeat
+26	Female	28	Asia	Mandarin	K-Pop
+27	Male	32	Australia	English	Country
+28	Female	23	South America	Spanish	Latin
+29	Male	27	North America	French	Jazz
+30	Female	30	Europe	German	Classical
