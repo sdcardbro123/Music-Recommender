@@ -29,8 +29,17 @@ y = M["Genre"]
 
 XT, Xt, yT, yt = train_test_split(X,y, test_size=0.2)
 
-#Modelling haha 😂
+#Modelling 
 
 model = DecisionTreeClassifier()
 model.fit(XT,yT)
 
+# Prediction
+
+pred = model.predict(Xt)
+
+# Accuracy Check 
+
+accu= accuracy_score(yt,pred)
+
+print(accu)
